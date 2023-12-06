@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_str">this is a english text land</string>
+    <color name="text_color">#000000</color>
+    <color name="bg_color">#d6bf7a</color>
+</resources>

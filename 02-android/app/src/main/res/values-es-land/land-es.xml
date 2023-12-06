@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_str">Soy un texto en español en land</string>
+    <color name="text_color">#311fbf</color>
+    <color name="bg_color">#90d19b</color>
+</resources>

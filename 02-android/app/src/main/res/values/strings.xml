@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">b2023-gr1sw-cjlc</string>
-    <string name="saludo">Hola Que tal?</string>
+    <string name="portrait_es">Este es un texto en español en portrait</string>
+    <string name="portrait_en">This is a english text on portrait</string>
 </resources>
