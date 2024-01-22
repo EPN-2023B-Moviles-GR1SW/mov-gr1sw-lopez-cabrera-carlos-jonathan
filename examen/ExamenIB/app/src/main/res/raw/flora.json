@@ -1,0 +1,38 @@
+[
+  {
+    "idParque": 1,
+    "idFlora": 1,
+    "nombre": "Flor A",
+    "tipo": "Rosácea",
+    "color": "Rojo",
+    "altura": 0.5,
+    "enExtincion": false
+  },
+  {
+    "idParque": 1,
+    "idFlora": 2,
+    "nombre": "Árbol B",
+    "tipo": "Conífera",
+    "color": "Verde",
+    "altura": 5.0,
+    "enExtincion": true
+  },
+  {
+    "idParque": 2,
+    "idFlora": 3,
+    "nombre": "Planta C",
+    "tipo": "Orquídea",
+    "color": "Morado",
+    "altura": 0.3,
+    "enExtincion": false
+  },
+  {
+    "idParque": 3,
+    "idFlora": 4,
+    "nombre": "Árbol D",
+    "tipo": "Frondosa",
+    "color": "Amarillo",
+    "altura": 8.0,
+    "enExtincion": false
+  }
+]

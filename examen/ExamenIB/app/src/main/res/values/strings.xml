@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExamenIB</string>
+    <string name="title_activity_base_parque">BaseParque</string>
+    <string name="title_activity_bas_flora">BasFlora</string>
+    <string name="title_activity_formulario_parque_editar">FormularioParqueEditar</string>
+    <string name="title_activity_main_flora">MainFlora</string>
+    <string name="title_activity_formulario_flora_editar">FormularioFloraEditar</string>
+</resources>

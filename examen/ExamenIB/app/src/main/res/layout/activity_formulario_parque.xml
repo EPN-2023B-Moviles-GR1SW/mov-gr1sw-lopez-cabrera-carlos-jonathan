@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNombreParque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre del parque" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extensión"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextExtension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ingrese la extensión del parque" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el tipo de parque" />
+
+    <CheckBox
+        android:id="@+id/checkBoxProteccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protección" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accesibilidad"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAccesibilidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la accesibilidad del parque" />
+
+    <Button
+        android:id="@+id/buttonGuardarParque"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+[
+  {
+    "idParque": 1,
+    "nombre": "Parque Nacional A",
+    "extension": 100.5,
+    "tipo": "Nacional",
+    "proteccion": true,
+    "accesibilidad": "Buena"
+  },
+  {
+    "idParque": 2,
+    "nombre": "Parque Local B",
+    "extension": 50.2,
+    "tipo": "Local",
+    "proteccion": false,
+    "accesibilidad": "Regular"
+  },
+  {
+    "idParque": 3,
+    "nombre": "Parque Nacional C",
+    "extension": 80.8,
+    "tipo": "Nacional",
+    "proteccion": true,
+    "accesibilidad": "Buena"
+  }
+]

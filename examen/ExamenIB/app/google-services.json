@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "263258874961",
+    "project_id": "examen-apps-mobiles-2023b",
+    "storage_bucket": "examen-apps-mobiles-2023b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263258874961:android:77e60c8e6501bdfb228470",
+        "android_client_info": {
+          "package_name": "com.cjlc.examen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOA7vJvxxSQvXEynETLKdilUumJvMzzhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263258874961:android:eae1d6200df8b823228470",
+        "android_client_info": {
+          "package_name": "com.example.examenib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOA7vJvxxSQvXEynETLKdilUumJvMzzhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

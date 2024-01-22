@@ -73,7 +73,7 @@ fun main(args: Array<String>) {
 
                     val nombre = readln()
                     for(parque in listaParques){
-                       if (nombre == parque.nombre){
+                       if (nombre.equals(parque.nombre)){
                            listaParques.remove(parque)
                            println("Parque Eliminado con exito")
 
@@ -89,7 +89,7 @@ fun main(args: Array<String>) {
 
                     val nombre = readln()
                     for(flora in listaFlora){
-                        if (nombre == flora.nombre){
+                        if (nombre.equals(flora.nombre)){
                             listaFlora.remove(flora)
                             println("Flora Eliminado con exito")
 
@@ -110,9 +110,10 @@ fun main(args: Array<String>) {
                         println(parque)
                     }
                     println("Ingrese el nombre del parque a actualizar la accesbilidad")
-                    val nombre = readln()
+                    val nombre = readln().toString()
                     for(parque in listaParques) {
-                        if (nombre == parque.nombre) {
+                        if (nombre.equals(parque.nombre)) {
+                            println("Ingrese valor de actualizar")
                             val access = readln().toString()
                             parque.accecibilidad = access
                             println("Parque Actualizado con exito")
@@ -127,9 +128,10 @@ fun main(args: Array<String>) {
                     println("Ingrese el nombre de la Flora a actualizar la altura")
                     val nombre = readln()
                     for(flora in listaFlora) {
-                        if (nombre == flora.nombre) {
-                            val altura = readln().toFloat()
-                            flora.altura = altura
+                        if (nombre.equals(flora.nombre) ) {
+                            println("Ingrese valor de actualizar")
+                            val altura = readln().toString()
+                            flora.altura = altura.toFloat()
                             println("Flora Actualizado con exito")
                         }
                     }
@@ -148,7 +150,7 @@ fun main(args: Array<String>) {
                     for(flora in listaFlora){
                         println(flora)
                     }
-                }
+                   }
 
             }
             "e" -> {
